@@ -1,0 +1,30 @@
+{
+  "name": "adityasah",
+  "version": "8.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "bin": {
+    "adityasah": "cli.js"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
+    "cliui": "^9.0.1",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.5.0",
+    "nanospinner": "^1.2.2",
+    "ora": "^8.2.0",
+    "prettyjson": "^1.2.5",
+    "terminal-link": "^4.0.0"
+  }
+}
